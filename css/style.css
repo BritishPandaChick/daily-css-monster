@@ -1,0 +1,100 @@
+body {
+  background: gray;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  background: none;
+  width: 600px;
+  height: 420px
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 70%;
+  height: 80%;
+  border-radius: 30%;
+  background-color: white;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left-eye {
+  position: absolute;
+  background: white;
+  border: 2px solid black;
+  width: 20%;
+  height: 23%;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.right-eye {
+  position: absolute;
+  background: white;
+  border: 2px solid black;
+  width: 20%;
+  height: 23%;
+  top: 25%;
+  right: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.pupil {
+  position: absolute;
+  width: 38%;
+  height: 40%;
+  top: 63%;
+  left: 27%;
+  border-radius: 50%;
+  background: black;
+}
+
+.mouth {
+  position:absolute;
+  left:23%;
+  width:55%;
+  height:35%;
+  border-radius:100%;
+  border-bottom:solid 3px #000;
+  bottom:30px;
+}
+
+.top-hat {
+  position: absolute;
+  background: white;
+  width: 115px;
+  height: 150px;
+  top: 4%;
+  left: 12%;
+  -webkit-clip-path: ellipse(25% 50% at 50% 50%);
+  clip-path: ellipse(25% 50% at 50% 50%);
+  transform: rotate(50deg);
+}
+
+.hat-middle {
+  position: absolute;
+  background: navy;
+  width: 85px;
+  height: 45px;
+  top: 25%;
+  left: 18%;
+  transform: rotate(135deg);
+  border-radius: 15%;
+  z-index: 2;
+}
